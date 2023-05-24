@@ -1,0 +1,51 @@
+.present {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+    border-bottom: 1px solid #000000;
+}
+.view {
+    margin-bottom: 20px;    
+    max-height: 400px;
+    min-height: 400px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    animation: blockInFromNone 0.8s ease-in-out;
+}
+.not {
+    display: none;
+}
+@keyframes blockInFromNone {
+    0% {
+      display: none;
+      opacity: 0;
+      transform: scale(.8);
+    }
+  
+    100% {
+      display: block;
+      opacity: 1;
+      transform: scale(1);
+    }
+}
+.present-img {
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn-style {
+    background-color: transparent;
+    border: 0;
+}
+.vector_img {
+    width: 80px;
+}

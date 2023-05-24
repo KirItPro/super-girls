@@ -1,0 +1,48 @@
+header {
+    padding: 2px 10px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #df74b2;
+    border: 2px solid #0bcece;
+    border-radius: 10px;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: italic;
+}
+.header-logo {
+    max-width: 100px;
+}
+.heder-link {
+    color: inherit;
+    text-decoration: none;
+}
+.heder-link:hover {
+    color: #ffe70e;
+    transform: scale(1.1);
+    text-decoration:underline;
+}
+.heder-tel {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    font-style: italic;
+}
+.heder-tel:hover {
+    color: #ffe70e;
+    transform: scale(1.1);
+    text-decoration:underline;
+}

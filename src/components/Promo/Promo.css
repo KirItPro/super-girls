@@ -1,0 +1,42 @@
+
+.promo {
+display: flex;
+border-bottom: 1px solid;
+padding-bottom: 20px;
+}
+.promo-title {
+    margin: 10px 0 0;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: #ff3fb6;
+    text-shadow: 2px 1px 1px #000000;
+    background-image: url(../images/dotted.png);
+    background-size:400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.promo-item {
+    margin: 5px;
+    font-size: 28px;
+    font-style: italic;
+    text-align: left;
+    text-shadow: 2px -1px 1px #FFFFFF;
+}
+.order-service {
+    padding: 8px;
+    background-color: #df74b2;
+    font-size: 25px;
+    border: 1px solid #0bcece;
+    border-radius: 10px;
+    font-weight: 800;
+    color: #dfdfdf;
+    text-shadow: 1px 1px 1px #000000;
+}
+.order-service:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.right-part_img {
+    max-width: 400px;
+}
